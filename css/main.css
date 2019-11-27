@@ -15,3 +15,43 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+.section {
+  background-color: #e5c30a;
+}
+
+.img-flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.section-letter {
+  width: 45%;
+}
+
+.section-icon {
+  width: 45%;
+}
+
+.wrapper {
+  display: flex;
+  font-size: 1.5rem;
+  max-width: 45em;
+  margin-left: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.section-body p {
+  max-width: 45em;
+  margin: .5rem 0 0 1rem;
+  padding: 0 3rem 1rem 0;
+}
